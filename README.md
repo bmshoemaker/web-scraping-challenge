@@ -20,11 +20,9 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 * Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
-
 ### Mars Facts
 
 * Visit the Mars Facts webpage [here](https://galaxyfacts-mars.com) and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
-
 
 ### Mars Hemispheres
 
