@@ -32,6 +32,7 @@ Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, an
 
 * You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
 
+
 ## Step 2 - MongoDB and Flask Application
 
 Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
