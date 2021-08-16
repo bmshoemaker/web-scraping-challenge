@@ -4,7 +4,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 import requests
 import pandas as pd
 import pymongo
+<<<<<<< HEAD
 import time
+=======
+>>>>>>> 2fe01d2457abd0cc99af1c70af99539ed9efc7bd
 
 def mars_info():
 
@@ -61,9 +64,16 @@ def mars_info():
     mars_data = {
         'news_title': news_title,
         'news_paragraph': news_p,
+<<<<<<< HEAD
         'featured_img_url': featured_img_url,
         'facts_table': facts_table,
         'hemispheres': hemisphere_image_urls
         }
+=======
+        'featured_image': featured_img_url,
+        'mars_facts': facts_table,
+        'hemispheres': hemis
+    }
+>>>>>>> 2fe01d2457abd0cc99af1c70af99539ed9efc7bd
 
     return mars_data
